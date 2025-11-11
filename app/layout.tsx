@@ -1,4 +1,4 @@
-import './globals.css';
+import "./globals.css";
 import { Cormorant_Garamond, Inter } from 'next/font/google';
 
 const serif = Cormorant_Garamond({
