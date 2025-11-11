@@ -23,3 +23,4 @@ p{ margin:0.5em 0; opacity:.95; }
 .grid-logos{ display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; opacity:.85; }
 @media (min-width:768px){ .grid-logos{ grid-template-columns:repeat(6,1fr);} }
 img{ max-width:100%; height:auto; border-radius:8px; display:block; }
+body { border-top: 4px solid #C47A3A; }
