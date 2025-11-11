@@ -1,0 +1,9 @@
+{
+  "name": "Dutch Cocktail Club",
+  "short_name": "DCC",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B0B0B",
+  "theme_color": "#0B0B0B",
+  "icons": []
+}
