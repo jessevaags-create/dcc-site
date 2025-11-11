@@ -1,3 +1,12 @@
+<section className="hero">
+  <h1>Premium ready-to-serve cocktails voor horeca, events & liefhebbers</h1>
+  <p>Bar-kwaliteit in 10 seconden. Smaakprofielen ontwikkeld door award-winning bartenders.</p>
+  <div style={{display:'flex',gap:12,marginTop:16}}>
+    <a className="btn btn-primary" href="/proefbox">Proefbox aanvragen</a>
+    <a className="btn" href="/horeca">Voor Horeca</a>
+  </div>
+</section>
+
 import Link from 'next/link';
 import { CTA } from '@/components/CTA';
 import { HeroVideo } from '@/components/HeroVideo';
@@ -124,3 +133,14 @@ export default async function HomePage() {
     </div>
   );
 }
+<section>
+  <h3>Vertrouwd door</h3>
+  <div className="grid-logos">
+    <img src="/logos/lowlands.svg" alt="Lowlands" />
+    <img src="/logos/w-hotels.svg" alt="W Hotels" />
+    <img src="/logos/awakenings.svg" alt="Awakenings" />
+    <img src="/logos/farm.svg" alt="FARM" />
+    <img src="/logos/het-scheepvaart.svg" alt="Het Scheepvaart" />
+    <img src="/logos/custom.svg" alt="Partner" />
+  </div>
+</section>
